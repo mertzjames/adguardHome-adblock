@@ -16,6 +16,9 @@
 ||pv-ads-na.amazon.com^
 ||pv-ads-eu.amazon.com^
 
+! Prime Video ads
+||*.pop-vod-hls.main.amazon.pv-cdn.net
+
 ! -----------------------------------------------------
 ! Twitch Ads / Tracking (DNS-safe subset)
 ! -----------------------------------------------------
@@ -42,6 +45,13 @@
 
 ||s.youtube.com^
 ||video-stats.video.google.com^
+
+! -----------------------------------------------------
+! Peacock TV
+! -----------------------------------------------------
+||g*-vod-us-cmaf-prd-*.cdn.peacocktv.com  # blocks all ads
+@@||g*-vod-us-cmaf-prd-mc.cdn.peacocktv.com  # seems to allow the main content to come through.
+
 
 ! -----------------------------------------------------
 ! REQUIRED SERVICES (DO NOT BLOCK)
