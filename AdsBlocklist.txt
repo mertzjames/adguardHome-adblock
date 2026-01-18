@@ -50,7 +50,6 @@
 ! Peacock TV
 ! -----------------------------------------------------
 ||g*-vod-us-cmaf-prd-*.cdn.peacocktv.com  # blocks all ads
-@@||g*-vod-us-cmaf-prd-mc.cdn.peacocktv.com  # seems to allow the main content to come through.
 
 
 ! -----------------------------------------------------
@@ -69,3 +68,5 @@
 @@||metrics.awswaf.com^
 @@||fls-na.amazon.com^
 @@||firetvcaptiveportal.com^
+@@||g*-vod-us-cmaf-prd-mc.cdn.peacocktv.com  # Peacock TV
+
